@@ -1,0 +1,666 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif,'Damion';
+    overflow-x: hidden;
+}
+.roboto-b20{
+    font-size: 2rem;
+    color: white;
+}
+/*===================HEADER==========================*/
+input.botonform {
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+}
+input.botonform:hover {
+   background-color: #1265fe;
+   color: white;
+}
+
+.bg-nava{
+    background-color: white;
+}
+h1{
+    font-family: 'Damion';
+    font-size: 3rem;
+}
+h2{
+    color: #f3f3f3;
+    font-size: 3rem;
+}
+.contenedorh1 {
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 10px;
+}
+.contenedorp{
+background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    margin-top: 10px;
+}
+.col-md-4.text-center {
+    overflow: hidden;
+
+    background-color: rgba(5,7,12,0.75);
+     word-wrap: break-word;
+     height: auto;
+
+
+}
+h4{
+    color: white;
+}
+.titulodentro{
+    color: white;
+}
+.segunda{
+    margin-left: 150px;
+}
+.centrar{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.motov4_623b345d14df4.motov4_fancy_heading.text-center.border_bottom h1:after {
+    width: 30%;
+    border-color: #fe8212;
+    border-width: 4px;
+}
+.motov4_fancy_heading.text-center.border_bottom h1:after, .motov4_fancy_heading.text-center.border_bottom h2:after, .motov4_fancy_heading.text-center.border_bottom h3:after, .motov4_fancy_heading.text-center.border_bottom h4:after, .motov4_fancy_heading.text-center.border_bottom h5:after, .motov4_fancy_heading.text-center.border_bottom h6:after {
+    margin: 10px auto 5px;
+}
+.motov4_fancy_heading.border_bottom h1:after, .motov4_fancy_heading.border_bottom h2:after, .motov4_fancy_heading.border_bottom h3:after, .motov4_fancy_heading.border_bottom h4:after, .motov4_fancy_heading.border_bottom h5:after, .motov4_fancy_heading.border_bottom h6:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    width: 25%;
+    margin: 10px auto 5px 0px;
+}
+
+.imagenmain{
+    width: 400px;
+    margin-left: 200px;
+}
+.logo{
+    width: 120px;
+}
+.card-img-top {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    border-radius: 24px;
+    border: none;
+}
+.card{
+    border: none;
+}
+.nav-link{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.modulo2 {
+    float: left;
+    width: 27%;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 7px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    opacity:0.8;
+ filter:alpha(opacity=80);
+ outline: none;
+ background-color: rgba(5,7,12,0.75);
+margin-left: 400px;
+}
+.tamaño{
+  height: 100px;
+  width: auto;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.fondosection{
+    background-color: #0949a7 !important;
+    border-radius: 10px;
+}
+#contactoh:hover{
+
+    color: #1b2a4e !important;
+}
+.contenedormain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    background-image:
+    linear-gradient(rgba(5,7,12,0.0),rgba(5,7,12,0.55)), url(./banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colorwhite{
+    color: white;
+}
+.motov4_list ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    margin-left: 0;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+li {
+    display: flex;
+    justify-content: left;
+    color: white;
+    list-style: circle;
+}
+.motov4_list_desc{
+    margin-left: 5px;
+}
+.vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    z-index: 1;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.row {
+    justify-content: inherit;
+}
+.mapa1{
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 800px;
+}
+.contenedormain1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    background-image:
+    linear-gradient(rgba(5,7,12,0.0),rgba(5,7,12,0.55)), url(./imagenes/hotel-ariel-2-.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*===================MENU==========================*/
+
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+   
+ }
+
+ #menu a{
+     color: black;
+     
+ }
+ #menu a:hover{
+    color: #1270fe;
+   
+}
+/*===================SLIDER DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+    margin-left: 500px;
+}
+
+
+#img-equipo{
+    max-height:30rem !important;
+    width:50%;
+}
+
+#equipo{
+    margin-top: 100px;
+}
+/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+#local {
+    margin-top:50px;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+
+.mapa {
+    background: url(../img/mapa.png);
+    width:100%;
+    height:500px;
+}
+
+
+.wrapper-local {
+    width:50%;
+    margin-left:100px;
+    padding-top:150px;
+}
+
+
+/*===========================SECCION EQUIPO MIAMI==================================*/
+#numeros-local{
+    margin:0 !important;
+    padding:0 !important;
+}
+#numeros-local div {
+    padding: 0 20px 0 0;  
+    text-align:left;
+    height:48px;
+}
+
+#numeros-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+  }
+#numeros-local div:not(:first-child) {
+    padding-left:20px;
+  }
+
+#numeros-local p{
+    margin:0;
+}
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos{
+    position:relative;
+    top: -130px;
+}
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+.d-flex.flex-wrap.justify-content-around {
+    margin-top: 21px;
+}
+section.motov4_fancy_heading.text-center.border_bottom.motov4_623b345d14df4 {
+    margin-top: 20px;
+}
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+   
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+.imgcont{
+    width: 600px;
+}
+
+
+
+/*=========================FOOTER================================*/
+
+footer {
+    background: #3f3f3f;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+.roboto-b10{
+    color: white;
+}
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+ 
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+ 
+}
+.herramientas{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+.codigo{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    border-radius: 20px;
+
+}
+.nuestrasmarcas{
+    background-color: #d2d3d5;
+}
+.contenedorimagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+.contenendorh4h2{
+    text-align: center;
+}
+
+.caja{
+    margin-top: auto;
+    margin-right: 5px;
+    margin-left:5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100px;
+    height: auto;
+}
+.motov4_list ul {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0px;
+    list-style: none;
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+@media (max-width:940px) {
+
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+        margin-left: 0px ;
+    }
+    .imagenmain{
+        width: 300px;
+        margin-left: 0px;
+     
+    }
+    .modulo2 {
+       
+        width: 40%;
+       
+    margin-left: 200px;
+    }
+}
+@media (max-width:770px) {
+
+    .segunda{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    li {
+        display: flex;
+        color: white;
+        font-size: 1rem;
+    }
+    .mapa1{
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 800px;
+    }
+}
+@media (max-width:660px) {
+    .imgcont{
+        width: 200px;
+    }
+
+    .imagenmain{
+        width: 300px;
+        margin-left: 0px;
+     
+    }
+    .modulo2 {
+       
+        width: 50%;
+       
+    margin-left: 100px;
+    }
+}
+@media (max-width:430px) {
+    .imgcont{
+        width: 200px;
+    }
+    .imagenmain{
+        width: 300px;
+        margin-left: 0px;
+     
+    }
+    .modulo2 {
+       
+        width: 60%;
+       
+    margin-left: 80px;
+    margin-right: 10px;
+    }
+}
+@media (max-width:360px) {
+    .imgcont{
+        width: 200px;
+    }
+    .imagenmain{
+        width: 100%;
+        margin-left: 0px;
+     
+    }
+    .modulo2 {
+       
+        width: 70%;
+       
+    margin-left: 50px;
+    margin-right: 10px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .imgcont{
+        width: 200px;
+    }
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+   
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    .imgcont{
+        width: 250px;
+    }
+    #servicios-fila-2 {
+       
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+   
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .mapar{
+display: flex;
+flex-wrap: wrap;
+padding-right: 50px;
+padding-bottom: 10px;    }
+    .mapagoogle{
+        width: 100% !important;
+    }
+   
+}
+
+#img-contenedor img {
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    width:100%;
+    }
+    #img-contenedor:hover img {
+    -webkit-transform:scale(0.75);
+    -moz-transform:scale(0.75);
+    -ms-transform:scale(0.75);
+    -o-transform:scale(0.75);
+    transform:scale(0.75);
+    }
+    #img-contenedor {/*Ancho y altura son modificables al requerimiento de cada uno*/
+    width: auto;
+    height:auto;
+    overflow:hidden;
+    }
+   h3{
+       color: black;
+       text-align: center;
+       margin-top: 0px;
+       font-size: 2rem;
+       font-family: 'Montserrat', sans-serif;
+   }
+   h5{
+       font-size: 4rem;
+       color: #727376;
+   }
+   .licolor{
+       font-size: 2rem;
+       color: #727376;
+   }
+ 
+
+.contenedor2{
+    background-color: #e6e7e8;
+    margin-top: 0px;
+}
+   .bgnombre{
+background-repeat: no-repeat;  
+background-position: center;    
+border-radius: 20px;
+padding: 10px;
+   }
+
+   #img-contenedor2 img {
+    -webkit-transition:all .9s ease; /* Safari y Chrome */
+    -moz-transition:all .9s ease; /* Firefox */
+    -o-transition:all .9s ease; /* IE 9 */
+    -ms-transition:all .9s ease; /* Opera */
+    width:100%;
+    }
+    #img-contenedor2:hover img {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.15);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    }
+.warnings{
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+
+.spancolor{
+    color: #0a0b0c;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+    margin-top:16px;
+}
