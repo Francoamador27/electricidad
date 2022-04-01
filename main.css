@@ -370,6 +370,12 @@ section.motov4_fancy_heading.text-center.border_bottom.motov4_623b345d14df4 {
     text-align: center;
     line-height: 20px;/* Centrado vertical */
   }
+  .h3nuestrasmarcas{
+      padding: 10px;
+      color: white;
+      font-size: 3rem;
+      text-shadow: 3px 3px 2px rgb(42, 43, 42);
+  }
 
 
 /*=========================FOOTER================================*/
